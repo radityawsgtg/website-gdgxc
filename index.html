@@ -1,15 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Radit - Portofolio </title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raditya Wibian Sastaka — Portfolio</title>
+  <meta name="description" content="Personal portfolio of Raditya Wibian Sastaka, 2nd-year Computer Science student at ITB building AI and IoT solutions.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#hero" class="nav__logo">raditya<span class="nav__logo-dot">.</span></a>
 
+      <ul class="nav__links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <span aria-hidden="true">Switch</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <p class="hero__eyebrow">$ whoami</p>
+      <h1 class="hero__name">Raditya Wibian Sastaka</h1>
+      <p class="hero__bio">
+        2nd-year Computer Science student at Institut Teknologi Bandung,
+        building AI and IoT tools for smallholder farmers(ngolah program pemerintah actually). Currently
+        learning frontend engineering, computer vision, and how to ship
+        things that actually get used.
+      </p>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2 class="skills__title">Skills I'm learning</h2>
+
+      <ul class="skills__grid">
+        <li class="skill-card">
+          <p class="skill-card__name">Next.js</p>
+          <p class="skill-card__desc">Building fast, full-stack React apps for real projects.</p>
+        </li>
+        <li class="skill-card">
+          <p class="skill-card__name">Python</p>
+          <p class="skill-card__desc">Data pipelines and ML model experimentation.</p>
+        </li>
+        <li class="skill-card">
+          <p class="skill-card__name">Docker</p>
+          <p class="skill-card__desc">Packaging services so they run the same everywhere.</p>
+        </li>
+        <li class="skill-card">
+          <p class="skill-card__name">Computer Vision</p>
+          <p class="skill-card__desc">Object detection with YOLO for real-world sensing.</p>
+        </li>
+        <li class="skill-card">
+          <p class="skill-card__name">IoT &amp; LoRa</p>
+          <p class="skill-card__desc">Low-power sensor networks for field data collection.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <p class="site-footer__label">Let's talk</p>
+    <ul class="site-footer__links">
+      <li><a href="mailto:you@example.com">Email</a></li>
+      <li><a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      <li><a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+    </ul>
+    <p class="site-footer__note">Im Just Having Fun</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
-
 </html>
