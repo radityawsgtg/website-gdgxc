@@ -20,44 +20,59 @@
       </ul>
 
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
-        <span aria-hidden="true">Switch</span>
+        <span aria-hidden="true">◐</span>
       </button>
     </nav>
   </header>
 
   <main>
     <section id="hero" class="hero">
-      <p class="hero__eyebrow">$ whoami</p>
-      <h1 class="hero__name">Raditya Wibian Sastaka</h1>
-      <p class="hero__bio">
-        2nd-year Computer Science student at Institut Teknologi Bandung,
-        building AI and IoT tools for smallholder farmers(ngolah program pemerintah actually). Currently
-        learning frontend engineering, computer vision, and how to ship
-        things that actually get used.
-      </p>
+      <div class="hero__content">
+        <p class="hero__eyebrow">Hellow lads!</p>
+        <h1 class="hero__name">Raditya Wibian Sastaka</h1>
+        <p class="hero__bio">
+          2nd-year Computer Science student at Institut Teknologi Bandung,
+          building AI and IoT tools for smallholder farmers. Currently
+          learning frontend engineering, computer vision, and how to ship
+          things that actually get used.
+        </p>
+      </div>
+
+      <div class="hero__photo">
+        <div class="hero__photo-shape" aria-hidden="true"></div>
+        <img
+          class="hero__photo-img"
+          src="/Users/radityasastaka/Dev/Code/Gdgxc/IMG_3921 (1).JPG"
+          alt="Portrait of Raditya Wibian Sastaka"
+          width="320"
+          height="320"
+          loading="eager"
+          decoding="async"
+        >
+      </div>
     </section>
 
     <section id="skills" class="skills">
       <h2 class="skills__title">Skills I'm learning</h2>
 
       <ul class="skills__grid">
-        <li class="skill-card">
+        <li class="skill-card skill-card--blue">
           <p class="skill-card__name">Next.js</p>
           <p class="skill-card__desc">Building fast, full-stack React apps for real projects.</p>
         </li>
-        <li class="skill-card">
+        <li class="skill-card skill-card--purple">
           <p class="skill-card__name">Python</p>
           <p class="skill-card__desc">Data pipelines and ML model experimentation.</p>
         </li>
-        <li class="skill-card">
+        <li class="skill-card skill-card--teal">
           <p class="skill-card__name">Docker</p>
           <p class="skill-card__desc">Packaging services so they run the same everywhere.</p>
         </li>
-        <li class="skill-card">
+        <li class="skill-card skill-card--coral">
           <p class="skill-card__name">Computer Vision</p>
           <p class="skill-card__desc">Object detection with YOLO for real-world sensing.</p>
         </li>
-        <li class="skill-card">
+        <li class="skill-card skill-card--amber">
           <p class="skill-card__name">IoT &amp; LoRa</p>
           <p class="skill-card__desc">Low-power sensor networks for field data collection.</p>
         </li>
@@ -68,11 +83,11 @@
   <footer id="contact" class="site-footer">
     <p class="site-footer__label">Let's talk</p>
     <ul class="site-footer__links">
-      <li><a href="mailto:you@example.com">Email</a></li>
-      <li><a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-      <li><a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      <li><a class="pill-link pill-link--teal" href="mailto:radityaws79@gmail.com">Email</a></li>
+      <li><a class="pill-link pill-link--blue" href="https://github.com/radityawsgtg" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      <li><a class="pill-link pill-link--purple" href="https://linkedin.com/in/raditya-sastaka" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
     </ul>
-    <p class="site-footer__note">Im Just Having Fun</p>
+    <p class="site-footer__note">Built from scratch, one module at a time.</p>
   </footer>
 
   <script src="script.js"></script>
